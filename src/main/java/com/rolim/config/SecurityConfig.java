@@ -1,4 +1,4 @@
-package com.kaluzny.config;
+package com.rolim.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -16,7 +16,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.inMemoryAuthentication()
                 .withUser("user")
-                .password("user")
+                .password("12345")
                 .roles("USER");
     }
 

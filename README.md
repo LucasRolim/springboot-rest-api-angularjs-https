@@ -1,8 +1,8 @@
 ## REST HTTPS API with Spring Boot and Angular JS.
 
-[![Build Status](https://travis-ci.org/OKaluzny/springboot-rest-api-angularjs-https.svg?branch=master)](https://travis-ci.org/OKaluzny/springboot-rest-api-angularjs-https)
-[![Coverage Status](https://coveralls.io/repos/github/OKaluzny/springboot-rest-api-angularjs-https/badge.svg?branch=master)](https://coveralls.io/github/OKaluzny/springboot-rest-api-angularjs-https?branch=master)
-[![codebeat badge](https://codebeat.co/badges/8192c7a4-8747-4177-b4f3-9f35faea2e84)](https://codebeat.co/projects/github-com-okaluzny-springboot-rest-api-angularjs-https-master)
+[![Build Status](https://travis-ci.org/ORolim/springboot-rest-api-angularjs-https.svg?branch=master)](https://travis-ci.org/ORolim/springboot-rest-api-angularjs-https)
+[![Coverage Status](https://coveralls.io/repos/github/ORolim/springboot-rest-api-angularjs-https/badge.svg?branch=master)](https://coveralls.io/github/ORolim/springboot-rest-api-angularjs-https?branch=master)
+[![codebeat badge](https://codebeat.co/badges/8192c7a4-8747-4177-b4f3-9f35faea2e84)](https://codebeat.co/projects/github-com-orolim-springboot-rest-api-angularjs-https-master)
 
 ### Technology stack:
 
@@ -29,7 +29,7 @@ mvn spring-boot:run
 
 ### This is what my REST API does:
 
-Go to `https://localhost:8443` to test and must specify a username: `user` and password: `user`
+Go to `https://localhost:8443` to test and must specify a username: `root` and password: `12345`
 
 * POST request to `/api/v1/objects/` with a "object" object as JSON creates a new "object";
 * GET request to `/api/v1/objects/` returns a list of "objects";

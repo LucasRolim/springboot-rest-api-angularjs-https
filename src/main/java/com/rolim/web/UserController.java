@@ -1,8 +1,8 @@
-package com.kaluzny.web;
+package com.rolim.web;
 
-import com.kaluzny.domain.User;
-import com.kaluzny.service.UserService;
-import com.kaluzny.service.exception.UserAlreadyExistsException;
+import com.rolim.domain.User;
+import com.rolim.service.UserService;
+import com.rolim.service.exception.UserAlreadyExistsException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpHeaders;

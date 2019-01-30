@@ -1,4 +1,4 @@
-package com.kaluzny.domain;
+package com.rolim.domain;
 
 import javax.persistence.*;
 

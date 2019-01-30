@@ -1,7 +1,7 @@
-package com.kaluzny.service;
+package com.rolim.service;
 
-import com.kaluzny.domain.User;
-import com.kaluzny.domain.UserRepository;
+import com.rolim.domain.User;
+import com.rolim.domain.UserRepository;
 import org.assertj.core.util.Arrays;
 import org.junit.Test;
 import org.junit.runner.RunWith;

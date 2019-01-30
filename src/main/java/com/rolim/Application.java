@@ -1,4 +1,4 @@
-package com.kaluzny;
+package com.rolim;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 @SpringBootApplication
-@ComponentScan("com.kaluzny")
+@ComponentScan("com.rolim")
 public class Application {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Application.class);

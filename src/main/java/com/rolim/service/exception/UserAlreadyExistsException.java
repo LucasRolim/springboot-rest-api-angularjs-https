@@ -1,4 +1,4 @@
-package com.kaluzny.service.exception;
+package com.rolim.service.exception;
 
 public class UserAlreadyExistsException extends RuntimeException {
 

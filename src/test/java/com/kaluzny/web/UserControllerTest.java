@@ -1,8 +1,8 @@
-package com.kaluzny.web;
+package com.rolim.web;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.kaluzny.domain.User;
-import com.kaluzny.service.UserService;
+import com.rolim.domain.User;
+import com.rolim.service.UserService;
 import org.hamcrest.Matchers;
 import org.junit.Before;
 import org.junit.Test;

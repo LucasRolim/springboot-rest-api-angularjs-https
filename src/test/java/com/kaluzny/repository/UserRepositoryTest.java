@@ -1,7 +1,7 @@
-package com.kaluzny.repository;
+package com.rolim.repository;
 
-import com.kaluzny.domain.User;
-import com.kaluzny.domain.UserRepository;
+import com.rolim.domain.User;
+import com.rolim.domain.UserRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;

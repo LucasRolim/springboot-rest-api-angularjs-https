@@ -1,8 +1,8 @@
-package com.kaluzny.service;
+package com.rolim.service;
 
-import com.kaluzny.domain.User;
-import com.kaluzny.domain.UserRepository;
-import com.kaluzny.service.exception.UserAlreadyExistsException;
+import com.rolim.domain.User;
+import com.rolim.domain.UserRepository;
+import com.rolim.service.exception.UserAlreadyExistsException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

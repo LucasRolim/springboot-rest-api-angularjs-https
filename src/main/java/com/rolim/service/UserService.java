@@ -1,6 +1,6 @@
-package com.kaluzny.service;
+package com.rolim.service;
 
-import com.kaluzny.domain.User;
+import com.rolim.domain.User;
 
 import java.util.List;
 
